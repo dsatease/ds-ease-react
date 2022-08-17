@@ -1,0 +1,14 @@
+.box{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.leftbar{
+    width: 20%;
+}
+.rightbar{
+    width: 20%;
+}
+.mid{
+    width: 60%;
+}
