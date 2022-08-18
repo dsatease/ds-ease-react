@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import { Code } from "../components/Code";
-import { Markdown } from "../components/Markdown";
+import { Markdownc } from "../components/Markdownc";
 import welcome from '../content/docs/welcome.md'
-
 
 export const Content = () => {
   const [content, setContent] = useState(``)
@@ -18,8 +16,7 @@ export const Content = () => {
   }, [])
   return (
     <div className='mid'>
-      <Markdown md={content} />
-      <Code code="System.out.println('hello')" />
+      <Markdownc md={content} />
     </div>
   )
 }
