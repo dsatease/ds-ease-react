@@ -1,10 +1,13 @@
 .navbar{
     height:50px;
-    position: sticky;
+    position: fixed;
     display: flex;
     flex-direction: row;
     align-items: center;
     border-bottom: 1px solid #dbdbdb;
+    width: 100%;
+    z-index: 999;
+    background-color: white;
 }
 .nav-inner{
     display: flex;
