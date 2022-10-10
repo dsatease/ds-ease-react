@@ -15,8 +15,13 @@ export const Content = () => {
     })
   }, [])
   return (
-    <div className='mid'>
-      <Markdownc md={content} />
+    <div className='content'>
+      <div className="content-md" style={{width:'65%'}}>
+        <Markdownc md={content} />
+      </div>
+      <div className="scrollview" style={{width:'30%'}}>
+
+      </div>
     </div>
   )
 }

@@ -1,18 +1,17 @@
 .navbar{
-    background-color: #20232a;
-    height:60px
-}
-
-.nav {
+    height:50px;
+    position: sticky;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+    border-bottom: 1px solid #dbdbdb;
 }
-
-a:hover{
-    color: rgb(200, 200, 200);
-}
-.offcanvas{
-    margin-right:-5vw;
+.nav-inner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    height: inherit;
+    justify-content: space-between;
 }
