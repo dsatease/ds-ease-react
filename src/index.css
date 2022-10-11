@@ -111,27 +111,38 @@ a {
   align-items: center;
 }
 
-.same-col{
+.same-col {
   display: flex;
   flex-direction: column;
   margin-right: 39px;
   width: 30%;
 }
-li{
+
+li {
   margin-left: 25px;
   font-size: 14.5px;
 }
-.stepper{
+
+.stepper {
   margin-left: -25px;
 }
 
-.gray-col{
+.gray-col {
   color: #525354;
   font-size: 13px;
 }
-.blue{
+
+.blue {
   color: #0676a2;
 }
-.danger{
+
+.danger {
   color: #d00303;
+}
+
+.same-line-gap{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }

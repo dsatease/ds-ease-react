@@ -150,7 +150,7 @@ public class HashMapCustom \< K, V> {
 
 <br>
 
-#### get(Object key)
+#### get(Object key) :
 <p class="gray-col">Returns the value to which the specified key is mapped, or null if this map contains no mapping for the key.</p>
 
 <code>
@@ -170,7 +170,7 @@ public class HashMapCustom \< K, V> {
 
 <br>
 
-#### containsKey(Object key)
+#### containsKey(Object key) :
 <p class="gray-col">Returns true if this map contains a mapping for the specified key.</p>
 <code>
     public boolean containsKey(K key) {
@@ -181,7 +181,7 @@ public class HashMapCustom \< K, V> {
 
 <br>
 
-#### containsValue(V val)
+#### containsValue(V val) :
 <p class="gray-col">Returns true if this map maps one or more keys to the specified value.</p>
 <code>
     public boolean containsValue(V val) {
@@ -200,7 +200,7 @@ public class HashMapCustom \< K, V> {
 
 <br>
 
-#### remove(Object key)
+#### remove(Object key) :
 <p class="gray-col">Removes the mapping for the specified key from this map if present.</p>
 <code>
   public V remove(K key) {
@@ -233,7 +233,7 @@ public class HashMapCustom \< K, V> {
 
 <br>
 
-#### getOrDefault(Object key, V defaultValue)
+#### getOrDefault(Object key, V defaultValue) :
 <p class="gray-col">Returns the value to which the specified key is mapped, or defaultValue if this map contains no mapping for the key.</p>
 <code>
     public V getOrDefault(K key, V defaultValue) {
@@ -247,7 +247,7 @@ public class HashMapCustom \< K, V> {
 
 <br>
 
-#### clear()
+#### clear() :
 <p class="gray-col">Removes all of the mappings from this map.</p>
 <code>
   public void clear() {
@@ -259,7 +259,7 @@ public class HashMapCustom \< K, V> {
 
 <br>
 
-#### size()
+#### size() : 
 <p class="gray-col">Returns the number of key-value mappings in this map.</p>
 <code>
 public int size() {
@@ -270,7 +270,7 @@ public int size() {
 
 <br>
 
-#### toString()
+#### toString() :
 <p class="gray-col">Returns the string value of map</p>
 <code>
 @Override
@@ -292,6 +292,18 @@ public int size() {
 <br>
 
 - <a class="blue" href="https://github.com/nisabmohd/Data-Structures/blob/master/src/Maps/HashMapCustom.java">Check the HashMap.java complete code on GitHub</a>
+
+<br>
+
+- <a class="blue" href="https://github.com/dsatease/ds-ease-react/blob/main/src/content/docs/hashmap.md">Edit this page</a>
+
+<br><br>
+
+<div class="same-line-gap">
+<a class="blue" href="/trees?topic=N-arry-tree"> \< Previous</a>
+<a class="blue" href="/maps?topic=linkedhashmap">Next \> </a>
+</div>
+
 
 <br>
 <br>

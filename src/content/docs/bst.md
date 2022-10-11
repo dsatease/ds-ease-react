@@ -49,7 +49,7 @@ At the time of insertion of nodes, the decision about the position of the node i
 
 <br><br>
 
-#### BinarySearchTree Class 
+#### BinarySearchTree Class :
 <p class="gray-col">The class of binary search tree.</p>
 <code>
  public class BinarySearchTree \< T extends Comparable \< T > > extends BinaryTree{
@@ -235,7 +235,7 @@ Deletion is a bit more complicated than insertion because it varies depending on
 
 <br>
 
-#### All Tree Traversals:
+#### All Tree Traversals :
 <p class="gray-col">All traversals are used from <a class="blue" href="/trees?topic=binary-tree">BinaryTree</a> class. </p>
 
 <code>
@@ -319,5 +319,14 @@ public int size() {
 
 - <a class="blue" href="https://github.com/nisabmohd/Data-Structures/blob/master/src/Trees/BinarySearchTree.java">Check the BinarySearchTree.java complete code on GitHub</a>
 
+<br>
+
+- <a class="blue" href="https://github.com/dsatease/ds-ease-react/blob/main/src/content/docs/bst.md">Edit this page</a>
+
+<br><br>
+<div class="same-line-gap">
+<a class="blue" href="/trees?topic=binary-tree"> \< Previous</a>
+<a class="blue" href="/trees?topic=N-arry-tree">Next \> </a>
+</div>
 
 <br><br><br>
