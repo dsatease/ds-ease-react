@@ -94,7 +94,7 @@ Here is the complete custom implementation of HashMap in Java
 <br>
 
 #### HashMap class :
-<p class="gray-col">The class of hashmap</p>
+<p class="gray-col">The class of hashmap.</p>
 
 
 <code>
@@ -108,7 +108,7 @@ public class HashMapCustom \< K, V> {
 <br>
 
 #### HashCode method :
-<p class="gray-col">Returns the hashcode of a key</p>
+<p class="gray-col">Returns the hashcode of a key.</p>
 
 <code>
  private int hashCode(K key) {
