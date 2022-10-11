@@ -38,239 +38,119 @@ export const Content = () => {
     context.setShowLeft(true)
   }, [context])
 
+  const fetchData = (foo) => {
+    fetch(foo).then((res) => {
+      return res.text()
+    }).then((data) => {
+      setContent(data)
+    }).catch(err => {
+      console.log(err);
+    })
+  }
+
   useEffect(() => {
     setContent('')
 
     if (params.pageid === "lists") {
       if (searchParams.get('topic') === "arraylist") {
-        fetch(arraylist).then((res) => {
-          return res.text()
-        }).then((data) => {
-          setContent(data)
-        }).catch(err => {
-          console.log(err);
-        })
+        fetchData(arraylist)
       }
       if (searchParams.get('topic') === "single-linked-list") {
-        fetch(singlell).then((res) => {
-          return res.text()
-        }).then((data) => {
-          setContent(data)
-        }).catch(err => {
-          console.log(err);
-        })
+        fetchData(singlell)
       }
       if (searchParams.get('topic') === "double-linked-list") {
-        fetch(doublell).then((res) => {
-          return res.text()
-        }).then((data) => {
-          setContent(data)
-        }).catch(err => {
-          console.log(err);
-        })
+        fetchData(doublell)
       }
       if (searchParams.get('topic') === "circular-linked-list") {
-        fetch(circularll).then((res) => {
-          return res.text()
-        }).then((data) => {
-          setContent(data)
-        }).catch(err => {
-          console.log(err);
-        })
+        fetchData(circularll)
       }
       if (searchParams.get('topic') === "stack") {
-        fetch(stack).then((res) => {
-          return res.text()
-        }).then((data) => {
-          setContent(data)
-        }).catch(err => {
-          console.log(err);
-        })
+        fetchData(stack)
       }
     }
 
 
     if (params.pageid === "queues") {
       if (searchParams.get('topic') === "queue") {
-        fetch(queue).then((res) => {
-          return res.text()
-        }).then((data) => {
-          setContent(data)
-        }).catch(err => {
-          console.log(err);
-        })
+        fetchData(queue)
       }
       if (searchParams.get('topic') === "deque") {
-        fetch(deque).then((res) => {
-          return res.text()
-        }).then((data) => {
-          setContent(data)
-        }).catch(err => {
-          console.log(err);
-        })
+        fetchData(deque)
       }
       if (searchParams.get('topic') === "circular-queue") {
-        fetch(cqueue).then((res) => {
-          return res.text()
-        }).then((data) => {
-          setContent(data)
-        }).catch(err => {
-          console.log(err);
-        })
+        fetchData(cqueue)
       }
     }
 
 
     if (params.pageid === "trees") {
       if (searchParams.get('topic') === "binary-tree") {
-        fetch(bt).then((res) => {
-          return res.text()
-        }).then((data) => {
-          setContent(data)
-        }).catch(err => {
-          console.log(err);
-        })
+        fetchData(bt)
       }
       if (searchParams.get('topic') === "binary-search-tree") {
-        fetch(bst).then((res) => {
-          return res.text()
-        }).then((data) => {
-          setContent(data)
-        }).catch(err => {
-          console.log(err);
-        })
+        fetchData(bst)
       }
       if (searchParams.get('topic') === "N-arry-tree") {
-        fetch(narry).then((res) => {
-          return res.text()
-        }).then((data) => {
-          setContent(data)
-        }).catch(err => {
-          console.log(err);
-        })
+        fetchData(narry)
       }
     }
 
 
     if (params.pageid === "maps") {
       if (searchParams.get('topic') === "hashmap") {
-        fetch(hashmap).then((res) => {
-          return res.text()
-        }).then((data) => {
-          setContent(data)
-        }).catch(err => {
-          console.log(err);
-        })
+        fetchData(hashmap)
       }
       if (searchParams.get('topic') === "linkedhashmap") {
-        fetch(lhashmap).then((res) => {
-          return res.text()
-        }).then((data) => {
-          setContent(data)
-        }).catch(err => {
-          console.log(err);
-        })
+        fetchData(lhashmap)
       }
       if (searchParams.get('topic') === "treemap") {
-        fetch(treemap).then((res) => {
-          return res.text()
-        }).then((data) => {
-          setContent(data)
-        }).catch(err => {
-          console.log(err);
-        })
+        fetchData(treemap)
       }
     }
 
 
     if (params.pageid === "sets") {
       if (searchParams.get('topic') === "hashset") {
-        fetch(hashset).then((res) => {
-          return res.text()
-        }).then((data) => {
-          setContent(data)
-        }).catch(err => {
-          console.log(err);
-        })
+        fetchData(hashset)
       }
       if (searchParams.get('topic') === "linkedhashset") {
-        fetch(lhashset).then((res) => {
-          return res.text()
-        }).then((data) => {
-          setContent(data)
-        }).catch(err => {
-          console.log(err);
-        })
+        fetchData(lhashset)
       }
       if (searchParams.get('topic') === "treeset") {
-        fetch(treeset).then((res) => {
-          return res.text()
-        }).then((data) => {
-          setContent(data)
-        }).catch(err => {
-          console.log(err);
-        })
+        fetchData(treeset)
       }
     }
 
 
     if (params.pageid === "heaps") {
       if (searchParams.get('topic') === "heap") {
-        fetch(heap).then((res) => {
-          return res.text()
-        }).then((data) => {
-          setContent(data)
-        }).catch(err => {
-          console.log(err);
-        })
+        fetchData(heap)
       }
       if (searchParams.get('topic') === "heapify") {
-        fetch(heapify).then((res) => {
-          return res.text()
-        }).then((data) => {
-          setContent(data)
-        }).catch(err => {
-          console.log(err);
-        })
+        fetchData(heapify)
       }
     }
 
 
     if (params.pageid === "tries") {
       if (searchParams.get('topic') === "trie") {
-        fetch(trie).then((res) => {
-          return res.text()
-        }).then((data) => {
-          setContent(data)
-        }).catch(err => {
-          console.log(err);
-        })
+        fetchData(trie)
       }
     }
 
 
     if (params.pageid === "graphs") {
       if (searchParams.get('topic') === "graph") {
-        fetch(graph).then((res) => {
-          return res.text()
-        }).then((data) => {
-          setContent(data)
-        }).catch(err => {
-          console.log(err);
-        })
+        fetchData(graph)
       }
       if (searchParams.get('topic') === "graphgeneric") {
-        fetch(ggraph).then((res) => {
-          return res.text()
-        }).then((data) => {
-          setContent(data)
-        }).catch(err => {
-          console.log(err);
-        })
+        fetchData(ggraph)
       }
     }
 
   }, [params, searchParams])
+
+
   return (
     <div className='content'>
       <div className="stepper" style={{ marginBottom: '19px', marginTop: '11px' }}>
