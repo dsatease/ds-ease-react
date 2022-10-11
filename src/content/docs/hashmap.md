@@ -50,9 +50,10 @@ The each key value pair class can be represented as :
 - We use put method in order to store that key value pair in Map, that return a boolean ie. true when added ,false when not added to Map
 
 <br>
-<img src="https://miro.medium.com/max/720/1*8WXDtHuWl9cpueiGiSfUqg.png" width="80%">
+<p align="center">
+<img src="https://firebasestorage.googleapis.com/v0/b/upload-pics-e599e.appspot.com/o/images%2Farray1.png?alt=media&token=aed5a37f-c53b-4f24-bab2-6f7b07d5ccc9" width="45%">
 
-<br>
+<br><br>
 
 Initially the bucket is empty so lets add two data
 <br>
@@ -70,7 +71,7 @@ The bucket length is 10 and key is 45 hence the hash we get is 5, so at location
 <br>
 
 
-<img src="https://miro.medium.com/max/720/1*BMNt6Nra-mVDGl1GtRpb2g.png" width="80%">
+<img src="https://firebasestorage.googleapis.com/v0/b/upload-pics-e599e.appspot.com/o/images%2Farraymap.png?alt=media&token=c2ca0c3c-55f2-4eee-bccd-2cf6fed44d39" width="80%">
 
 <br>
 
@@ -79,7 +80,7 @@ So, everything works great until I add 55,65 or some other value whose hash valu
 
 <br>
 
-<img src="https://miro.medium.com/max/720/1*8JO00-KWeCU7y8pTUXM-fg.png" width="80%">
+<img src="https://firebasestorage.googleapis.com/v0/b/upload-pics-e599e.appspot.com/o/images%2Farraymap1.png?alt=media&token=52d13c0a-53ac-4e99-9159-44384a7e7ae7" width="80%">
 
 <br>
 <br>
