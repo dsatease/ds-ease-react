@@ -6,7 +6,7 @@
 Note : The ArrayList in Java can have the duplicate elements also.
 </p>
 <h3 className="mh3">Constructor : </h3>
-<c>
+<code>
  public class ArrayListCustom \< T \> {
     private final int DEFAULT_CAPACITY = 7;
     private int size = 0;
@@ -18,11 +18,11 @@ Note : The ArrayList in Java can have the duplicate elements also.
         arr = new Object[DEFAULT_CAPACITY];
     }
  }
-</c>
+</code>
 
 <h3 className="mh3">add(T value) </h3>
 <p>Add methods adds a value at last index</p>
-<c>
+<code>
 public boolean add(T val) {
     if (arr.length == size) {
         doubleArr();
@@ -30,9 +30,9 @@ public boolean add(T val) {
     arr[size++] = (T) val;
     return ((T) arr[size - 1]).equals(val);
 }
-</c>
+</code>
 <h3 className="mh3">Double Array When size is Full : </h3>
-<c>
+<code>
 private void doubleArr() {
     Object[] temp = new Object[arr.length * 2];
     for (int i = 0; i < arr.length; i++) {
@@ -40,9 +40,9 @@ private void doubleArr() {
     }
         arr = temp;
 }
-</c>
+</code>
 <h3 className="mh3">Add at index</h3>
-<c>
+<code>
 public void add(int index, T val) {
      if (index > = size) {
         for (int i = 0; i < index - size - 1; i++) {
@@ -58,6 +58,6 @@ public void add(int index, T val) {
         size++;
     }
 }
-</c>
+</code>
 
 <br/>

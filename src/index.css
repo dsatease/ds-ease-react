@@ -72,6 +72,7 @@ h1 {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 .main-btn,
@@ -115,4 +116,19 @@ a {
   flex-direction: column;
   margin-right: 39px;
   width: 30%;
+}
+li{
+  margin-left: 25px;
+  font-size: 14.5px;
+}
+.stepper{
+  margin-left: -25px;
+}
+
+.gray-col{
+  color: #525354;
+  font-size: 13px;
+}
+.blue{
+  color: #0676a2;
 }

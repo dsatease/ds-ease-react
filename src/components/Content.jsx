@@ -270,8 +270,6 @@ export const Content = () => {
       }
     }
 
-
-    console.log(searchParams.get('topic'), params);
   }, [params, searchParams])
   return (
     <div className='content'>

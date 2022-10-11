@@ -6,7 +6,7 @@ export const Markdownc = (props) => {
     <Markdown options={{
       forceBlock: true,
       overrides: {
-        c: {
+        code: {
           component: Codec,
           props: {
             className: 'foo',
