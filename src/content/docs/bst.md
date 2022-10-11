@@ -315,4 +315,9 @@ public int size() {
     }
 </code>
 
+<br><br>
+
+- <a class="blue" href="https://github.com/nisabmohd/Data-Structures/blob/master/src/Trees/BinarySearchTree.java">Check the BinarySearchTree.java complete code on GitHub</a>
+
+
 <br><br><br>

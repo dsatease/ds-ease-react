@@ -50,7 +50,7 @@ The each key value pair class can be represented as :
 - We use put method in order to store that key value pair in Map, that return a boolean ie. true when added ,false when not added to Map
 
 <br>
-<img src="https://miro.medium.com/max/720/1*8WXDtHuWl9cpueiGiSfUqg.png" width="100%">
+<img src="https://miro.medium.com/max/720/1*8WXDtHuWl9cpueiGiSfUqg.png" width="80%">
 
 <br>
 
@@ -70,7 +70,7 @@ The bucket length is 10 and key is 45 hence the hash we get is 5, so at location
 <br>
 
 
-<img src="https://miro.medium.com/max/720/1*BMNt6Nra-mVDGl1GtRpb2g.png" width="100%">
+<img src="https://miro.medium.com/max/720/1*BMNt6Nra-mVDGl1GtRpb2g.png" width="80%">
 
 <br>
 
@@ -79,7 +79,7 @@ So, everything works great until I add 55,65 or some other value whose hash valu
 
 <br>
 
-<img src="https://miro.medium.com/max/720/1*8JO00-KWeCU7y8pTUXM-fg.png" width="100%">
+<img src="https://miro.medium.com/max/720/1*8JO00-KWeCU7y8pTUXM-fg.png" width="80%">
 
 <br>
 <br>
