@@ -1,5 +1,6 @@
 import Markdown from "markdown-to-jsx"
 import { Codec } from "./Codec";
+import {Redirect} from './Redirect'
 
 export const Markdownc = (props) => {
   return (
@@ -12,6 +13,9 @@ export const Markdownc = (props) => {
             className: 'foo',
           },
         },
+        a:{
+          component:Redirect
+        }
       },
     }}>
       {props.md}

@@ -273,18 +273,19 @@ public int size() {
 #### toString() :
 <p class="gray-col">Returns the string value of map</p>
 <code>
-@Override
+    @Override
     public String toString() {
-        String str = "{ ";
+        StringBuilder builder = new StringBuilder("{");
         for (int i = 0; i < bucket.length; i++) {
             Entry temp = bucket[i];
             while (temp != null) {
-                str += temp.key + "=" + temp.val + " ";
+                builder.append(temp.key + "=" + temp.val + ",");
                 temp = temp.next;
             }
         }
-        str += "}";
-        return str;
+        if(builder.length()==1) builder.append(" ");
+        String t = builder.substring(0, builder.length() - 1);
+        return (new StringBuilder(t)).append("}").toString();
     }
 </code>
 
