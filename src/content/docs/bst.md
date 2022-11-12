@@ -243,38 +243,52 @@ Deletion is a bit more complicated than insertion because it varies depending on
     public List \< Object > inOrder() {
         return super.inOrder(root);
     }
+</code>
 
+<code>
     // NLR traversal
     public List \< Object > preOrder() {
         return super.preOrder(root);
     }
+</code>
 
+<code>
     // LRN traversal
     public List \< Object > postOrder() {
         return super.postOrder(root);
     }
-    
+</code>
+
+<code>
     // Top view traversal
     public List\< Object > topView() {
         return super.topView(root);
     }
+</code>
 
-     // Bottom view traversal
+<code>
+    // Bottom view traversal
     public List\< Object > botttomView() {
         return super.botttomView(root);
     }
+</code>
 
-     // Level vise traversal
+<code>
+    // Level vise traversal
     public List\< List\< Object > > levelOrder() {
         return super.levelOrder(root);
     }
+</code>
 
-     // Left view traversal
+<code>
+    // Left view traversal
     public List\< Object > leftView() {
         return super.leftView(root);
     }
+</code>
 
-     // Right view traversal
+<code>
+    // Right view traversal
     public List\< Object > rightView() {
         return super.rightView(root);
     }
